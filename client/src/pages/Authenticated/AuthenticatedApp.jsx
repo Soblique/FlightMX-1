@@ -1,14 +1,15 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Nav from "../components/Nav"
-import Footer from "../components/Footer"
-import Error from "../components/Error"
-import Home from "../components/Home"
+import Nav from "../../components/Nav"
+import Footer from "../../components/Footer"
+import Error from "../../components/Error"
+import Home from "./Home"
 import Aircraft from "./Aircraft"
+import Monitor from "./Monitor"
 import Logbook from "./Logbook"
-import About from "./About"
-import Login from "./Login"
-import Logout from "./Logout"
+import About from "../About"
+import Login from "../Login"
+import Logout from "../Logout"
 
 function AuthenticatedApp() {
   return (
@@ -22,6 +23,7 @@ function AuthenticatedApp() {
           <Route exact path="/logout" component={Logout} />
           <Route exact path="/logbook/:tail_number?" component={Logbook} />
           <Route exact path="/aircraft/:aircraftID?" component={Aircraft} />
+          <Route exact path="/monitor/:tail_number?" component={Monitor} />
           <Route component={Error} />
         </Switch>
         <Footer />

@@ -9,8 +9,8 @@ import React from 'react';
 // import About from "./pages/About"
 // import Login from "./components/Login"
 // import Logout from "./components/Logout"
-import AuthenticatedApp from "./pages/AuthenticatedApp"
-import UnauthenticatedApp from "./pages/UnauthenticatedApp"
+import AuthenticatedApp from "./pages/Authenticated/AuthenticatedApp"
+import UnauthenticatedApp from "./pages/Unauthenticated/UnauthenticatedApp"
 import './App.css';
 
 function useUser(){

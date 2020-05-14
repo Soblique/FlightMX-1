@@ -9,9 +9,9 @@ import {
   Row,
   Col,
 } from "react-bootstrap";
-import Sidebar from "../components/Sidebar";
+import Sidebar from "../../components/Sidebar";
 import DatePicker from "react-datepicker";
-import API from "../utils/API";
+import API from "../../utils/API";
 
 import "react-datepicker/dist/react-datepicker.css";
 

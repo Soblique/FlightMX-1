@@ -1,13 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Nav from "../components/Nav"
-import Footer from "../components/Footer"
-import Error from "../components/Error"
-import Home from "../components/Home"
-import About from "./About"
-import Login from "./Login"
-import Logout from "./Logout"
-import Pricing from "./Pricing"
+import Nav from "../../components/Nav"
+import Footer from "../../components/Footer"
+import Error from "../../components/Error"
+import Home from "./Home"
+import About from "../About"
+import Login from "../Login"
+import Logout from "../Logout"
+import Pricing from "../Pricing"
 
 function UnauthenticatedApp() {
   return (

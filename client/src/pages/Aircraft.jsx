@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios';
 
-class AircraftList extends Component {
+class Aircraft extends Component {
     constructor(props) {
         super(props)
     this.state = {
@@ -63,4 +63,4 @@ class AircraftList extends Component {
      }
 }
 
-export default AircraftList
+export default Aircraft;

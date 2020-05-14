@@ -1,13 +1,14 @@
 import React from "react";
+import { Navbar, Nav, Container, FormControl, Button } from "react-bootstrap";
+
 import "./style.css";
 
 const Footer = () => (
-	<footer className = "page-footer">
-		<div className = "container-fluid">
-			<p>Homepage ©2020</p>
-		</div>	
-	</footer>
-	
+	<Container>
+  		<Navbar expand="sm" variant="light" bg="light" fixed="bottom">
+    		<Navbar.Brand href="#">Bottom Bar</Navbar.Brand>
+  		</Navbar>
+	</Container>
 );
 
 export default Footer;
